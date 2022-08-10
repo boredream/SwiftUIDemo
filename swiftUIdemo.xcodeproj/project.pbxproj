@@ -38,6 +38,7 @@
 		2BB2D73228A355FF00390CA4 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB2D73128A355FF00390CA4 /* Badge.swift */; };
 		2BB2D73428A3563700390CA4 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB2D73328A3563700390CA4 /* BadgeSymbol.swift */; };
 		2BB2D73628A3566800390CA4 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB2D73528A3566800390CA4 /* RotatedBadgeSymbol.swift */; };
+		2BB2D73828A35D1F00390CA4 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB2D73728A35D1F00390CA4 /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		2BB2D73128A355FF00390CA4 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		2BB2D73328A3563700390CA4 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		2BB2D73528A3566800390CA4 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		2BB2D73728A35D1F00390CA4 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 			children = (
 				2BB2D72B28A352DA00390CA4 /* ProfileHost.swift */,
 				2BB2D72D28A3553400390CA4 /* ProfileSummary.swift */,
+				2BB2D73728A35D1F00390CA4 /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				2B86BD2E28A24DF800CF405F /* BadgeBackground.swift in Sources */,
 				2B86BD2828A238DC00CF405F /* CircleImage.swift in Sources */,
 				2B86BD1D28A2128500CF405F /* ModelData.swift in Sources */,
+				2BB2D73828A35D1F00390CA4 /* ProfileEditor.swift in Sources */,
 				2B1FE4EC2893D73E0095457E /* swiftUIdemoApp.swift in Sources */,
 				2B86BD3D28A2512500CF405F /* HikeGraph.swift in Sources */,
 				2B86BD1B28A2116800CF405F /* Landmark.swift in Sources */,
@@ -377,7 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -432,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -452,7 +456,7 @@
 				DEVELOPMENT_TEAM = S54Y6UYAXC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = swiftUIdemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,7 +478,7 @@
 				DEVELOPMENT_TEAM = S54Y6UYAXC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = swiftUIdemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
