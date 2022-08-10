@@ -42,6 +42,7 @@
 		2BB2D73B28A3647E00390CA4 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB2D73A28A3647E00390CA4 /* PageViewController.swift */; };
 		2BB2D73F28A37B6400390CA4 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB2D73E28A37B6400390CA4 /* FeatureCard.swift */; };
 		2BB2D74128A37BD400390CA4 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB2D74028A37BD400390CA4 /* PageView.swift */; };
+		2BB2D74328A3875B00390CA4 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB2D74228A3875B00390CA4 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		2BB2D73A28A3647E00390CA4 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		2BB2D73E28A37B6400390CA4 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		2BB2D74028A37BD400390CA4 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		2BB2D74228A3875B00390CA4 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +240,7 @@
 				2BB2D73A28A3647E00390CA4 /* PageViewController.swift */,
 				2BB2D73E28A37B6400390CA4 /* FeatureCard.swift */,
 				2BB2D74028A37BD400390CA4 /* PageView.swift */,
+				2BB2D74228A3875B00390CA4 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				2BB2D73428A3563700390CA4 /* BadgeSymbol.swift in Sources */,
 				2B86BD3F28A2512500CF405F /* HikeView.swift in Sources */,
 				2B86BD2A28A2444F00CF405F /* FavoriteButton.swift in Sources */,
+				2BB2D74328A3875B00390CA4 /* PageControl.swift in Sources */,
 				2B86BD3C28A2512500CF405F /* GraphCapsule.swift in Sources */,
 				2B86BD2428A2344200CF405F /* LandmarkList.swift in Sources */,
 				2B86BD2628A235CF00CF405F /* LandmarkDetail.swift in Sources */,
