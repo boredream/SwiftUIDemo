@@ -14,7 +14,7 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView {
             List {
-                PageView(pages: modelData.features.map{FeatureCard(landmark: $0)})
+                PageView(pages: modelData.features.map { FeatureCard(landmark: $0) })
                     .aspectRatio(3 / 2, contentMode: .fit)
                     .listRowInsets(EdgeInsets())
 
@@ -23,7 +23,7 @@ struct CategoryHome: View {
                 }
                 .listRowInsets(EdgeInsets())
             }
-            .listStyle(PlainListStyle())
+            .listStyle(.inset)
             .navigationTitle("Featured")
             .toolbar {
                 Button {
@@ -33,7 +33,8 @@ struct CategoryHome: View {
                 }
             }
             .sheet(isPresented: $showingProfile) {
-                ProfileHost().environmentObject(modelData)
+                ProfileHost()
+                    .environmentObject(modelData)
             }
         }
     }
@@ -41,6 +42,7 @@ struct CategoryHome: View {
 
 struct CategoryHome_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryHome().environmentObject(ModelData())
+        CategoryHome()
+            .environmentObject(ModelData())
     }
 }
